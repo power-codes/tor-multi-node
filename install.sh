@@ -6,9 +6,8 @@ GREEN='\033[1;32m'
 RED='\033[1;31m'
 NC='\033[0m'
 
-REPO="https://github.com/power-codes/tor-multi-node"
+REPO="https://raw.githubusercontent.com/power-codes/tor-multi-node/refs/heads/main"
 
-# تابع برای چاپ پیام‌های مرتب
 print_status() {
     echo -e "${CYAN}[*]${NC} $1"
 }
